@@ -5,5 +5,5 @@ resource "null_resource" "test" {
 }
 
 module "sub2" {
-  source = "localterraform.com/kampanart-org/module/submodule2"
+  source = "localterraform.com/kampanart-org/module/test//sub1/sub2"
 }
