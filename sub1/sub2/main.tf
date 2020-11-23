@@ -1,3 +1,3 @@
-module "test" {
-  source = "../../sub2"
+resource "null_resource" "hey" {
+  count = 1
 }
