@@ -3,3 +3,7 @@ resource "null_resource" "test" {
     always = timestamp()
   }
 }
+
+module "sub2" {
+  source = "./submodule2"
+}
